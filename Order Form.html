@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Order Form</h1>
+    <form action="/">
+        <label for="name">Your Name:</label>
+        <input type="text" placeholder="Enter Your Name" value="" name="name" id="name">
+        <br>
+        <br>
+        <br>
+        <label for="email">Your Email:</label>
+        <input type="email" placeholder="Enter Your Email" value="" name="email" id="email">
+        <br>
+        <br>
+        <br>
+        <label>Choose your product:</label>
+        <input type="radio" name="products" value="product1"> <label>Product 1</label>
+        <input type="radio" name="products" value="product2"> <label>Product 2</label>
+        <input type="radio" name="products" value="product3"> <label>Product 3</label>
+        <Br>
+        <br>
+        <label for="date">Delivery Date:</label>
+        <input type="date" name="delivery date" id="date">
+        <br>
+        <br>
+        <label>Quantity:</label>
+        <select>
+            <option value="quantity">1</option>
+            <option value="quantity">2</option>
+            <option value="quantity">3</option> selected>1</option>
+        </select>
+        <br>
+        <br>
+        <label for="address">Address:</label>
+        <input type="address" placeholder="Street address" value="" id="address">
+        <br>
+        <br>
+        <label for="city">City:</label>
+        <br>
+        <select name="city" id="city">
+            <option value="City0" selected>---Select city---</option>
+            <option value="City1">City1</option>
+            <option value="City2">City2</option>
+            <option value="City3">City3</option>
+        </select>
+        <br>
+        <br>
+        <label for="region">Region:</label>
+        <br>
+        <select name="region" id="region">
+            <option value="Region0" selected>---Select region---</option>
+            <option value="Region1">Region1</option>
+            <option value="Region2">Region2</option>
+            <option value="Region3">Region3</option>
+        </select>
+        <br>
+        <br>
+        <input type="checkbox" checked name="notify" id="email">
+        <label for="email" checked>Notify me by email</label>
+        <br>
+        <br>
+        <textarea id="comment" placeholder="Enter your comment here" rows="12" cols="32" name="comment"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Order">
+    </form>
+</body>
+</html>
